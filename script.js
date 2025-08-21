@@ -29,3 +29,36 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+// hoursconverter
+
+document.addEventListener("DOMContentLoaded", function () {
+  const hoursInput = document.getElementById("hoursinput"); // Fixed 'hoursinput' to 'hoursInput' for consistency
+  const convertBtns = document.getElementById("convertbtns");
+  const resultsDiv = document.getElementById("results");
+
+  function converthoursTosecond() {
+
+    const hours = parseFloat(hoursInput.value);
+
+    if (isNaN(hours) || hours < 0) {
+      resultsDiv.textContent = "Please enter a valid number";
+      resultsDiv.style.color = "green";
+      return;
+    }
+
+    const seconds = hours * 3600; 
+
+    resultsDiv.textContent = `${hours} hours = ${Math.round(seconds)} seconds`; 
+    resultsDiv.style.color = "#5223aa";
+  }
+
+  convertBtns.addEventListener("click", converthoursTosecond); 
+
+  hoursInput.addEventListener("keypress", function (e) {
+    
+    if (e.key === "Enter") {
+      converthoursTosecond();
+    }
+  });
+});
+

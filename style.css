@@ -7,6 +7,8 @@
             margin: 0;
             background-color: #f5f5f5;
         }
+      
+        
         
         .converter {
             background-color: white;
@@ -14,7 +16,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
-            width: 300px;
+            width: 70%;
         }
         
         h1 {
@@ -57,16 +59,7 @@
         }
          /* converthours */
 
-         body{
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f5f5f5;
-        }
+         
         
         .converter1 {
             background-color: white;
@@ -75,7 +68,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
-            width: 300px;
+            width: 70%;
         }
         
         h1 {
@@ -118,3 +111,218 @@
             font-weight: bold;
         }
     
+
+
+
+
+    
+    .sss{
+        width: 70%;
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+        padding: 30px;
+        margin-top: 4rem;
+    }
+    .acc{
+        text-align: center;
+    }
+    .vvv{
+        text-align: center;
+    }
+    .container {
+      max-width: 100%;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 70%;
+      margin-top: 3.2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .ccc{
+        display: flex;
+        flex-direction: column;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input, button {
+      padding: 10px;
+      margin: 8px 0;
+      width: 100%;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .lll{
+        display: flex;
+        flex-direction: column; 
+    }
+    button {
+      background: #007BFF;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    .result-box {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #007BFF;
+      background: #e9f3ff;
+      font-weight: bold;
+      color: #007BFF;
+      display: none; /* Hidden initially */
+    }
+
+
+    /* capitilizer */
+    
+    .box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin-top: 4rem;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      width: 70%;
+    }
+    input, button {
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 80%;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: 100px;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    #fullNameResult {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* bmi */
+     .bmi-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      width: 70%;
+      margin-top: 4rem;
+    }
+    input, button {
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 80%;
+    }
+    button {
+      background: #28a745;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: 120px;
+    }
+    button:hover {
+      background: #1e7e34;
+    }
+    #bmiOutput {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* ramdom */
+    .array-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      width: 70%;
+      margin-top: 4rem;
+    }
+    button {
+      padding: 8px 12px;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      background: #007bff;
+      color: white;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    #generatedArray, #pickedElements {
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+    }
+    /* sumnum */
+     .box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      width: 70%;
+      text-align: center;
+      margin-top: 4rem;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+      text-align: left;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    #resultDiv {
+      display: none; /* hidden at start */
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .error {
+     
+      color: black;
+    }
+    .success {
+      color: #292e29;
+    }
+    button {
+      padding: 10px 15px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #0056b3;
+    }

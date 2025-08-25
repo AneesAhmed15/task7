@@ -11,8 +11,8 @@
         
         
         .converter {
-            background-color: white;
             padding: 30px;
+            background-color: white;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
@@ -20,14 +20,13 @@
         }
         
         h1 {
-            color: #333;
+          color: #333;
             margin-bottom: 20px;
         }
         
         input, button {
             padding: 10px;
             margin: 10px 0;
-            width: 100%;
             box-sizing: border-box;
         }
         
@@ -37,7 +36,6 @@
         }
         
         button {
-            background-color: #ae70d8;
             color: white;
             border: none;
             border-radius: 5px;
@@ -69,6 +67,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
             width: 70%;
+          
         }
         
         h1 {
@@ -80,7 +79,6 @@
         input, button {
             padding: 10px;
             margin: 10px 0;
-            width: 100%;
             box-sizing: border-box;
         }
         
@@ -89,15 +87,7 @@
             border-radius: 5px;
         }
         
-        button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
+       
         
         button:hover {
             background-color: #45a049;
@@ -121,6 +111,9 @@
         box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
         padding: 30px;
         margin-top: 4rem;
+        background-color: white;
+        border-radius: 10px;
+        
     }
     .acc{
         text-align: center;
@@ -131,10 +124,13 @@
     .container {
       max-width: 100%;
       margin: auto;
-      background: #fff;
       padding: 20px;
+      background-color: gray;
       border-radius: 10px;
       width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin-top: 3.2rem;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
@@ -149,7 +145,6 @@
     input, button {
       padding: 10px;
       margin: 8px 0;
-      width: 100%;
       border-radius: 5px;
       border: 1px solid #ccc;
     }
@@ -158,7 +153,7 @@
         flex-direction: column; 
     }
     button {
-      background: #007BFF;
+      background-color: rgb(103, 107, 65);
       color: white;
       font-weight: bold;
       cursor: pointer;
@@ -166,6 +161,9 @@
     }
     button:hover {
       background: #0056b3;
+    }
+    h3{
+      color: #ae70d8;
     }
     .result-box {
       margin-top: 15px;
@@ -195,14 +193,13 @@
       margin: 5px;
       border-radius: 5px;
       border: 1px solid #ccc;
-      width: 80%;
+      width: 30%;
     }
     button {
-      background: #007bff;
       color: white;
       border: none;
       cursor: pointer;
-      width: 100px;
+      width: 130px;
     }
     button:hover {
       background: #0056b3;
@@ -229,15 +226,9 @@
       margin: 5px;
       border-radius: 5px;
       border: 1px solid #ccc;
-      width: 80%;
+      width: 30%;
     }
-    button {
-      background: #28a745;
-      color: white;
-      border: none;
-      cursor: pointer;
-      width: 120px;
-    }
+   
     button:hover {
       background: #1e7e34;
     }
@@ -258,15 +249,7 @@
       width: 70%;
       margin-top: 4rem;
     }
-    button {
-      padding: 8px 12px;
-      margin: 10px;
-      border-radius: 5px;
-      border: none;
-      cursor: pointer;
-      background: #007bff;
-      color: white;
-    }
+    
     button:hover {
       background: #0056b3;
     }
@@ -313,16 +296,7 @@
     .success {
       color: #292e29;
     }
-    button {
-      padding: 10px 15px;
-      background: #007bff;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-top: 10px;
-      font-size: 16px;
-    }
+    
     button:hover {
       background: #0056b3;
     }

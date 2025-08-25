@@ -189,19 +189,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // sumnum
 
-     function showResult() {
-      let val1 = document.getElementById("numBox1").value;
-      let val2 = document.getElementById("numBox2").value;
-      let resultDiv = document.getElementById("resultDiv");
+ let firstNum = document.getElementById("firstNum");
+    let secondNum = document.getElementById("secondNum");
+    let resultBox = document.getElementById("resultBox");
 
-      resultDiv.style.display = "block";
+    function calculate() {
+      let val1 = firstNum.value;
+      let val2 = secondNum.value;
 
-      if (val1 === "" || val2 === "") {
-        resultDiv.textContent = "Error: Please enter both numbers!";
-        resultDiv.className = "error";
+      if (val1 === "") {
+        resultBox.value = ""; // if first is empty, clear result
+      } else if (val2 === "") {
+        resultBox.value = "NaN"; // only first number entered
       } else {
-        let sum = parseInt(val1) + parseInt(val2);
-        resultDiv.textContent = "Result: " + sum;
-        resultDiv.className = "success";
+        resultBox.value = parseInt(val1) + parseInt(val2); // show sum
       }
     }
+
+    firstNum.addEventListener("input", calculate);
+    secondNum.addEventListener("input", calculate);

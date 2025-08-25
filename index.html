@@ -11,6 +11,9 @@
     
        
 <body>
+  <div class="container">
+
+
     <div class="converter">
         <h1>Age Converter</h1>
         <input type="number" id="ageInput" placeholder="Enter age in years" min="0">
@@ -29,6 +32,95 @@
         <button id="convertbtns">Convert</button>
     </DIV>
 
+<div class="sss">
+    <h2>Next Number Finder</h2>
+
+    <!-- Array -->
+     <div class="ccc">
+     <div class="abb">
+    <h3>Find Next Number in Array</h3>
+    <label>Enter Array (comma separated):</label>
+    <input type="text" id="arrayInput" placeholder="e.g. 10,20,30,40"><br>
+      <label>Enter Number to Find:</label>
+    <input type="number" id="targetInput" placeholder="e.g. 20">
+  </div>
+    <div class="acc">
+
+    <button onclick="findNextInArray()">Find Next in Array</button>
+    <div id="arrayResult" class="result-box"></div>
+</div>
+</div>
+    <hr>
+
+    <!-- Single Value -->
+     <div class="lll">
+     <div class="ttt">
+    <h3>Find Next Number of Single Value</h3>
+    <label>Enter a Number (integer or float):</label>
+    <input type="text" id="singleInput" placeholder="e.g. 7 or 7.5"></div>
+    <div class="vvv">
+    <button onclick="findNextSingle()">Find Next Value</button>
+    <div id="singleResult" class="result-box"></div>
+</div>
+</div>
+   </div>
+
+<!-- capitilizer -->
+<div class="box">
+    <h2>Enter Your Full Name</h2>
+    <input type="text" id="fullNameInput" placeholder="enter your name">
+    <br>
+    <button onclick="showFullName()">Submit</button>
+    <p id="fullNameResult"></p> <!-- unique id -->
+  </div>
+
+  <!-- bmicode -->
+
+<div class="bmi-box">
+    <h2>BMI Calculator</h2>
+    <input type="number" id="weightInput" placeholder="Enter weight in kg">
+    <br>
+    <input type="number" id="heightInput" placeholder="Enter height in meters" step="0.01">
+    <br>
+    <button onclick="calculateBMI()">Calculate</button>
+    <p id="bmiOutput"></p> 
+  </div>
+  <!-- random array generator -->
+
+  <div class="array-box">
+    <h2>Random Array Generator</h2>
+    <button onclick="generateArray()">Generate Array</button>
+    <button onclick="pickElements()">Pick 1st & Last</button>
+    <p id="generatedArray"></p>
+    <p id="pickedElements"></p>
+  </div>
+
+  <!-- sum of two numbers -->
+
+  <div class="box">
+    <label for="numBox1">Enter First Number</label>
+    <input type="number" id="numBox1">
+
+    <label for="numBox2">Enter Second Number</label>
+    <input type="number" id="numBox2">
+
+    <button onclick="showResult()">Calculate</button>
+
+    <div id="resultDiv"></div>
+  </div>
+
+   
+</div>
+
+
+
+
+
     <script src="script.js"></script>
+
+
+
+
 </body>
 </html>
+
